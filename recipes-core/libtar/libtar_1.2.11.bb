@@ -9,7 +9,8 @@ LIC_FILES_CHKSUM = "file://COPYRIGHT;md5=61cbac6719ae682ce6cd45b5c11e21af"
 ###SRC_URI = "ftp://ftp.feep.net/pub/software/libtar/libtar-${PV}.tar.gz \
 #
 
-SRC_URI = "ftp://ftp.freebsd.org/pub/FreeBSD/ports/distfiles/libtar-${PV}.tar.gz \
+#SRC_URI = "ftp://ftp.freebsd.org/pub/FreeBSD/ports/distfiles/libtar-${PV}.tar.gz 
+SRC_URI = "file://libtar-${PV}.tar.gz \
             file://0001-Cross-compile-fix.patch \
             file://0002-Do-not-strip-libtar.patch \
            "
